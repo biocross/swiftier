@@ -1,6 +1,6 @@
 // Colors
-$default-color: #555;
-$default-shade: #353535;
+$default-color: #c7bdbd;
+$default-shade: #dee2e6;
 $default-tint: #aaa;
 $grey-1: #979797;
 $grey-2: #e5e5e5;
@@ -9,11 +9,13 @@ $white: #fff;
 $blue: #4a9ae1;
 $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
+$background-color: #212529;
+$logo-color: rgba(212,73,80,.85);
 
 // Fonts
-$serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif;
-$serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$serif-primary: 'IBMPlexMono-Regular', 'Libre Baskerville', 'Times New Roman', Times, serif;
+$serif-secondary: 'IBMPlexMono-Bold', Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
+$sans-serif: 'IBMPlexMono-Medium', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 $monospaced: Menlo, Monaco, monospace;
 
 @mixin box-sizing($type: border-box) {
@@ -26,4 +28,19 @@ $monospaced: Menlo, Monaco, monospace;
   -webkit-transition: $args;
      -moz-transition: $args;
           transition: $args;
+}
+
+@font-face {
+  font-family: 'IBMPlexMono-Regular';
+  src: url("../assets/IBMPlexMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'IBMPlexMono-Medium';
+  src: url("../assets/IBMPlexMono-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'IBMPlexMono-Bold';
+  src: url("../assets/IBMPlexMono-Bold.ttf");
 }
