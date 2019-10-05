@@ -1,5 +1,5 @@
 # Site settings
-title:          SwiftierSwift
+title:          Swiftier
 description:    "A tale of swift performance"
 url:            "https://biocross.github.io"
 
@@ -31,7 +31,7 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       8
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock ]
