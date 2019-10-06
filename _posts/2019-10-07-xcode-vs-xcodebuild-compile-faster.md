@@ -32,3 +32,11 @@ I started the stopwatch with high hopes, considering the gains from our Android 
 Unfortunately, the build finished just shy of 9 minutes - **539** seconds to be exact. 
 
 Weirdly, It took pretty much the same time, if not slightly higher than Xcode itself. Looks like Xcode, unlike Android Studio, does not have an overhead during compilation. In fact, it might even slightly optimise the build process, considering our result. Anyway, since I was benchmarking compilation time, I started exploring tips and tricks other developers have published over the years to improve Xcode compile times. Let's benchmark some of these!
+
+### Disabling dSYM Generation
+
+### Turning off Whole Module Optimization 
+
+### Improving Linker Configuration
+
+### Using Cocoapods-binary to Precompile Pods
