@@ -32,7 +32,8 @@ layout: default
   {% if page.previous.url %}
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
-
-  {% include disqus.html %}
   <a href="#" class="top">Top</a>
+  <br/>
 </div>
+
+{% include disqus.html %}
