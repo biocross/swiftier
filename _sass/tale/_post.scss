@@ -20,6 +20,13 @@
     text-align: center;
   }
 
+  &-subtitle {
+    color: $default-shade;
+    font-family: $sans-serif;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
   &-line {
     border-top: 0.4rem solid $default-shade;
     display: block;
