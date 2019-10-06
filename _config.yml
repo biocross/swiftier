@@ -1,10 +1,10 @@
 # Site settings
 title:          Swiftier
 description:    "A tale of swift performance"
-url:            "https://biocross.github.io"
+url:            "https://swiftier.co"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: UA-149474631-1
 
 # Author
 author:
