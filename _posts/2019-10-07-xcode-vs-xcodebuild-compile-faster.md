@@ -11,7 +11,7 @@ I recently came across a few discussions online about how Android developers wer
 
 I decided to run the benchmarks using Xcode 10.3, on my 2018 MacBook Pro:
 
-<img src="https://swiftier.co/assets/posts/xcode_vs_xcodebuild/macbook_specs.png" alt="Macbook Specs" title="Macbook Specs" width="652" height="450" />
+<img src="https://swiftier.co/assets/posts/xcode_vs_xcodebuild/macbook_specs.png" alt="Macbook Specs" style="zoom:40%;" />
 
 I compiled a fairly large codebase, with a majority of Swift (98%), and a little bit of Objective-C (2%). A total of around `xxxx` thousand lines of code / source files (excluding cocoapods).
 
