@@ -25,6 +25,10 @@
     stroke-width: 1.5px;
   }
 
+  .nav-title {
+    margin-top: 30px;
+  }
+
   .ct-chart {
     height: 36px;
     width: 113px;
@@ -95,14 +99,16 @@
       targets: '.ct-chart',
       opacity: 0,
       duration: 800,
-      delay: 2000
+      delay: 2000,
+      complete: function () {
+        document.getElementsByClassName('ct-chart')[0].remove();
+        anime({
+          targets: '.nav-title',
+          translateY: -30,
+          duration: 1200
+        })
+      }
     });
-    anime({
-      targets: '.nav-title',
-      translateY: -30,
-      duration: 1600,
-      delay: 2000
-    })
   });
 
 </script>
