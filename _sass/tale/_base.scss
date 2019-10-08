@@ -69,3 +69,31 @@ img {
 td {
   vertical-align: top;
 }
+
+#mc_embed_signup {
+  background: $background-color;
+  clear: left;
+  font: 14px $serif-primary;
+  border: 1px solid darkgrey;
+  border-radius: 6px;
+  margin-top: 16px;
+
+  .signup-subtitle {
+    margin-top: -14px;
+    font-weight: 900;
+  }
+}
+
+#mc_embed_signup_scroll {
+  padding-bottom: 20px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  #mc_embed_signup_scroll {
+    padding-bottom: 20px;
+    width: 500px;
+    margin: 0 auto;
+  }
+}
