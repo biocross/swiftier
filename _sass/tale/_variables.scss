@@ -32,15 +32,18 @@ $monospaced: Menlo, Monaco, monospace;
 
 @font-face {
   font-family: 'IBMPlexMono-Regular';
+  font-display: swap;
   src: url("../assets/fonts/IBMPlexMono-Regular.ttf");
 }
 
 @font-face {
   font-family: 'IBMPlexMono-Medium';
+  font-display: swap;
   src: url("../assets/fonts/IBMPlexMono-Medium.ttf");
 }
 
 @font-face {
   font-family: 'IBMPlexMono-Bold';
+  font-display: swap;
   src: url("../assets/fonts/IBMPlexMono-Bold.ttf");
 }
