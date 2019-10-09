@@ -72,6 +72,8 @@ td {
 
 #mc_embed_signup {
   background: $background-color;
+  background-image: url("/assets/og_image.png");
+  background-repeat: repeat;
   clear: left;
   font: 14px $serif-primary;
   border: 1px solid darkgrey;
