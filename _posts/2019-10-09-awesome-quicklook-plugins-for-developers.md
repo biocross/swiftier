@@ -15,11 +15,15 @@ For example, as a developer, you might work with `.md` Markdown files, or `.json
 
 This awesome plugin, as the name suggests, lets you preview markdown files in quicklook!  Really handy if you want to look a project README or documentation.
 
+<img src="{{site.url}}/assets/posts/quicklook/markdown.png" alt="QLMarkdown" style="zoom:50%;" />
+
 You can download it [here](https://github.com/toland/qlmarkdown).
 
 ## quick look JSON
 
 As the name suggests, this lets you preview JSON files in quicklook!
+
+<img src="{{site.url}}/assets/posts/quicklook/json.png" alt="QLMarkdown" style="zoom:50%;" />
 
 You can download it [here](http://www.sagtau.com/quicklookjson.html).
 
@@ -27,6 +31,8 @@ You can download it [here](http://www.sagtau.com/quicklookjson.html).
 
 This awesome plugin lets your preview code files with syntax highlighting! Super handy!
 
+<img src="{{site.url}}/assets/posts/quicklook/syntax.png" alt="QLMarkdown" style="zoom:50%;" />
+
 You can download it [here](https://github.com/anthonygelibert/QLColorCode).
 
-These are the quicklook plugins that make my life easier on a daily basis! Interestingly, while writing this post, I discovered this awesome repository which has more amazing plugins: https://github.com/sindresorhus/quick-look-plugins. The one that can preview zip files is a godsend! Happy coding!
+These are the quicklook plugins that make my life easier on a daily basis! Interestingly, while writing this post, I discovered this awesome repository which has more amazing plugins: [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins). The one that can preview zip files is a godsend! Happy coding!
