@@ -23,7 +23,7 @@ You can download it [here](https://github.com/toland/qlmarkdown).
 
 As the name suggests, this lets you preview JSON files in quicklook!
 
-<img src="{{site.url}}/assets/posts/quicklook/json.png" alt="QLMarkdown" style="zoom:50%;" />
+<img src="{{site.url}}/assets/posts/quicklook/json.png" alt="quickLookJSON" style="zoom:50%;" />
 
 You can download it [here](http://www.sagtau.com/quicklookjson.html).
 
@@ -31,7 +31,7 @@ You can download it [here](http://www.sagtau.com/quicklookjson.html).
 
 This awesome plugin lets your preview code files with syntax highlighting! Super handy!
 
-<img src="{{site.url}}/assets/posts/quicklook/syntax.png" alt="QLMarkdown" style="zoom:50%;" />
+<img src="{{site.url}}/assets/posts/quicklook/syntax.png" alt="QLColorCode" style="zoom:50%;" />
 
 You can download it [here](https://github.com/anthonygelibert/QLColorCode).
 
