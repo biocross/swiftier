@@ -13,7 +13,7 @@ For example, as a developer, you might work with `.md` Markdown files, or `.json
 
 ## qlmarkdown: Markdown QuickLook plugin:
 
-This awesome plugin, as the name suggests, lets you preview markdown files in quicklook!  Really handy if you want to look a project README or documentation.
+This awesome plugin, as the name suggests, lets you preview markdown files in quicklook!  Really handy if you want to look at a project README or documentation.
 
 <img src="{{site.url}}/assets/posts/quicklook/markdown.png" alt="QLMarkdown" style="zoom:50%;" />
 
@@ -21,7 +21,7 @@ You can download it [here](https://github.com/toland/qlmarkdown).
 
 ## quick look JSON
 
-As the name suggests, this lets you preview JSON files in quicklook!
+As the name suggests, this lets you quickly preview JSON files in quicklook!
 
 <img src="{{site.url}}/assets/posts/quicklook/json.png" alt="quickLookJSON" style="zoom:50%;" />
 
