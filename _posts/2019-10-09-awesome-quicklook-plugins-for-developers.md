@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "Must have quicklook plugins for Developers"
-subtitle: Quicklook all the things!
+subtitle: Supercharge Finder on your Mac!
 author: "Siddharth"
 ---
 
 I absolutely love the quicklook feature on macOS, which let's you smash the space button on any file in Finder and see a quick preview without opening it. This is amazing for videos, text files, and even quickly skimming through documents. However, QuickLook doesn't support all file formats by default.
 
-For example, as a developer, you might work with `.md` Markdown files, or `.json` files frequently. Worry not, there are some awesome QuickLook plugins that's have been developed by the community, and will quickly become an essential part of your workflow!
+For example, as a developer, you might work with `.md` Markdown files, or `.json` files frequently, which quicklook doesn't support by default. Worry not, there are some awesome QuickLook plugins that's have been developed by the community, and will quickly become an essential part of your workflow!
 
-> A quick note on how to install these plugins: Most of the download links will give you a .qlgenerator file. To install these plugins, just copy this file to `~/Library/QuickLook/` directory on your mac. After that, just restart the QuickLook manager by opening Terminal and running `qlmanage -r`. That's it, all done! 
+> A quick note on how to install these plugins: Most of the download links will give you a `.qlgenerator` file. To install these plugins, copy this file to `~/Library/QuickLook/` directory on your mac. After that, just restart the QuickLook manager by opening Terminal and running `qlmanage -r`. That's it, all done! 
 
 ## qlmarkdown: Markdown QuickLook plugin:
 

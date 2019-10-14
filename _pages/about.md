@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "About"
-author: "Chester"
+title: "Swiftier"
+subtitle: "A tale of swift performance"
+author: "Siddharth"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+Hello there, I'm Siddharth! I work as an iOS engineer at [Grab](https://www.grab.com/sg/). I love to focus on code performance, and often create tools to improve developer productivity. 
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+I've created Swif<span style='color: rgba(212,73,80,.85)'>tier</span> as a space to share what I've learnt about tuning and improving your code to optimize your app's performance. 
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+A lot of interesting posts are lined up, including a multistep guide to *improving your app's startup performance*, improving *compilation times*, and open sourcing of a lot of tools I've created! Make sure you don't miss a thing by subscribing below :)
 
 Thanks for reading!
