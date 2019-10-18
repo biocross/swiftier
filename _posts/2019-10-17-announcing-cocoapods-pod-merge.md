@@ -25,11 +25,15 @@ You define groups of pods you want to merge, and add pods to group just like you
 
 ### Can merge both Swift & Objective-C Pods
 
-The plugin can merge both Objective-C and Swift Pods, however mixing them  in the same group is not recommended, due to special settings required for Swift pods.
+The plugin can merge both Objective-C and Swift Pods. Mixing them in the same group however is not recommended, due to special settings required for Swift pods.
 
 ### Can merge pods that are dependant on each other, even fixing imports!
 
-Add the `has_dependencies!` flag to a group, and plugin takes care of merging pods that are dependant on each other. It even fixes imports inside the merged pods, since the pods are now part of the same framework! 
+Add the `has_dependencies!` flag to a group, and the plugin takes care of merging pods that are dependant on each other. 
+
+<img src="{{site.url}}/assets/posts/pod_merge/has_dependencies.png" alt="PodFile" style="zoom:62%;" />
+
+It even fixes imports inside the merged pods, since the pods are now part of the same framework! 
 
 ### Minimal changes to your Podfile
 
@@ -39,7 +43,11 @@ You only need to add one line to your Podfile to start using the plugin, and use
 
 ### Keeps logical separation between merged pods using C modulemaps
 
-After merging the pods, the plugin automatically creates a C modulemap for the resulting framework, helping you still import the merged pods individually! Yay for no import pollution! (except Swift pods)
+After merging the pods, the plugin automatically creates a C modulemap for the resulting framework, helping you still import the merged pods individually! 
+
+<img src="{{site.url}}/assets/posts/pod_merge/modulemap.png" alt="PodFile" style="zoom:52%;" />
+
+Yay for no import pollution! (except Swift pods)
 
 ### Share code between you app and extensions, without duplicate symbols
 
