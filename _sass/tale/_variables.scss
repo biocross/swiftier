@@ -15,8 +15,8 @@ $code-background: #2e343f;
 
 // Fonts
 $serif-primary: 'IBMPlexMono-Regular', 'Libre Baskerville', 'Times New Roman', Times, serif;
-$serif-secondary: 'IBMPlexMono-Bold', Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: 'IBMPlexMono-Medium', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$serif-secondary: 'IBMPlexMono-Regular', Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
+$sans-serif: 'IBMPlexSans-Medium', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 $monospaced: Menlo, Monaco, monospace;
 
 @mixin box-sizing($type: border-box) {
@@ -44,7 +44,7 @@ $monospaced: Menlo, Monaco, monospace;
 }
 
 @font-face {
-  font-family: 'IBMPlexMono-Bold';
+  font-family: 'IBMPlexSans-Medium';
   font-display: swap;
-  src: url("../assets/fonts/IBMPlexMono-Bold.ttf");
+  src: url("../assets/fonts/IBMPlexSans-Medium.ttf");
 }
