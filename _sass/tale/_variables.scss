@@ -17,7 +17,12 @@ $code-background: #2e343f;
 $serif-primary: 'IBMPlexMono-Regular', 'Libre Baskerville', 'Times New Roman', Times, serif;
 $serif-secondary: 'IBMPlexMono-Regular', Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
 $sans-serif: 'IBMPlexSans-Medium', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$logo-font: 'IBMPlexMono-Medium', 'Libre Baskerville', 'Times New Roman', Times, serif;
 $monospaced: Menlo, Monaco, monospace;
+
+.logo-font {
+  font-family: $logo-font !important;
+}
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

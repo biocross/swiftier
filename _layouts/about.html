@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="post">
+
+  <h1 class="post-title logo-font">Swift<span class="titleSuffix">ier</span></h1>
+  <h3 class="post-subtitle logo-font"> {{ page.subtitle }} </h3>
+  <div class="post-line"></div>
+
+  {{ content }}
+
+</div>
+
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+  <a href="#" class="top">Top</a>
+  <br/>
+</div>
+
+{% include mailchimp.html %}
