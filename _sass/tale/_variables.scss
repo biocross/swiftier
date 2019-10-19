@@ -22,6 +22,7 @@ $monospaced: Menlo, Monaco, monospace;
 
 .logo-font {
   font-family: $logo-font !important;
+  color: #c7bdbd !important;
 }
 
 @mixin box-sizing($type: border-box) {
