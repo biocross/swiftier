@@ -6,9 +6,7 @@ author: "Siddharth"
 ogimage: "https://github.com/biocross/swiftier/raw/master/assets/posts/pod_merge/pod-merge-logo-2.png"
 ---
 
-If your app uses a lot of external dependencies in the form of cocoapods, and you’d like improve your app startup performance, I have good news for you!
-
-The pre-main time of apps (especially the dylib load time) can get especially high if you app uses a lot of cocoapods, and you use the `use_frameworks` directive in your Podfile, linking your pods dynamically. These dynamically linked pods are then loaded one by one on app’s startup, slowing it down considerably.
+If your app uses a lot of cocoapods with the `use_frameworks` directive in your Podfile, it's app startup time (especially dylib loading time during pre-main) can get significantly high. The `use_frameworks` directive links your pods as dynamic frameworks, and they are then loaded one by during your app’s startup, slowing it down considerably.
 
 If you’ve watched Apple’s 2016 WWDC talk [Optimizing App Startup Time](https://developer.apple.com/videos/play/wwdc2016/406), Apple recommends you to merge your dynamic frameworks to improve your app's load time.
 
