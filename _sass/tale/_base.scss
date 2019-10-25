@@ -92,6 +92,10 @@ td {
   margin: 0 auto;
 }
 
+#mc-embedded-subscribe {
+  background-color: $logo-color !important;
+}
+
 @media (min-width: 600px) {
   #mc_embed_signup_scroll {
     padding-bottom: 20px;
