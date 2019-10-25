@@ -47,9 +47,9 @@ After merging the pods, the plugin automatically creates a C modulemap for the r
 
 Yay for no import pollution! (except Swift pods)
 
-## 🗳 Share code between you app and extensions, without duplicate symbols
+## 🗳 Share code between your app and extensions, without duplicate symbols
 
-Share these merged dynamic frameworks between your app's main binary and extensions, without creating multiple copies of the merged cocoapods within them unlike static linking.
+Share these merged dynamic frameworks between your app's main binary and extensions, without creating multiple copies of the merged cocoapods within them (unlike static linking).
 
 ## ✅ It's open-source!
 
