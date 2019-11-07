@@ -10,7 +10,11 @@
     <main>
       {{ content }}
     </main>
-
+    <script>
+        try {
+          fetch("https://curl.press/api/swiftier/add?event=swiftier.loaded").then(function () {}).catch(function () {});
+        } catch (error) {}
+      </script>
     {% include footer.html %}
   </body>
 </html>
